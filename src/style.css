@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.gray-color-item-form{
+    background-color: rgb(222, 222, 222);
+    border: green;
+}
+
+.sidebar-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    height:50px;
+    width: 100%;
+}
+
+.sidebar-button:hover{
+    background-color: #bfd5bf;
+    border: 1px solid #36644d;
+    transition: 0.5s;
+}
+
+.css-153azai-MuiFormControl-root-MuiTextField-root fieldset{
+    border-color: #36644d !important;
+}
